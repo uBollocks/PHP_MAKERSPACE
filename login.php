@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>My first PHP Website</title>
+        <title>Yusuf's first PHP Website</title>
     </head>
     <body>
         <h2>Login Page</h2>
