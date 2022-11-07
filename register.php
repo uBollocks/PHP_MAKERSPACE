@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Yusuf's PHP Website</title>
+        <title>Yusuf's PHP 3 Website</title>
     </head>
     <body>
         <h2>Registration Page</h2>
