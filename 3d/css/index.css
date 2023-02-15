@@ -1,0 +1,279 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  height: 100vh;
+  align-items: center;
+  background-color: #f5f5f5;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  color: #5000ff;
+}
+
+.btn-primary {
+  color: #4285F4;
+  background-color: #5000ff;
+  width:20vw;
+}
+.btn-primary:hover {
+  background-color: #4d02ee;
+}
+
+.error-text {
+  text-align: center;
+  color: #ff0000;
+}
+
+.links {
+  text-align: right;
+  margin-top: 1rem;
+  position:absolute;
+  z-index:2;
+}
+
+.links a {
+  margin-top: 0.5rem;
+}
+
+.content {
+  margin-top: 6rem;
+  padding: 1rem;
+}
+
+.my-2 {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+hr.divider {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+hr.divider:after {
+  content: "Or";
+  display: inline-block;
+  position: relative;
+  top: -14px;
+  text-align: center;
+  padding: 0 16px;
+  background-color: #f5f5f5;
+}
+
+.auth-container {
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.auth-container .form-control {
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.auth-container input[type="email"] {
+  margin-bottom: -1px;
+}
+.container{
+  position: relative;
+  height:100%;
+  width:100vw;
+  padding: 0px;
+  margin: 0px;
+}
+.background{
+  /* Full height */
+  height: 100%;
+  width: 100vw;
+       }
+.header{
+display: flex;
+align-items:center;
+width:100%;
+height: 15vh;
+background: #fff;
+}
+.tp-logo{
+height:10vh;
+margin-top:2vh;
+margin-left: 1vh;
+}
+.login-box{
+position:absolute;
+top: 50%;
+left:50%;
+width:700px;
+padding: 40px;
+transform: translate(-50%, -50%);
+background: whitesmoke;
+box-shadow: 0 15px 25px rgba(236, 150, 124, 0.616);
+border-radius: 10px;
+}
+.login-box h2{
+margin:0 0 30px;
+padding:0;
+color: #FA5F15;
+text-align:center;
+}
+.login-box .user-box input{
+position:relative;
+width:100%;
+padding: 10px 0;
+font-size: 16px;
+color: rgb(72, 47, 35);
+margin-bottom: 10px;
+border: none;
+border-bottom: 2px solid #fff;
+border: none;
+background: transparent;
+
+}
+.login-box.user-box label{
+position: relative;
+left:0;
+top: -60px;
+padding: 10px 0;
+font-size: 16px;
+color: #fff;
+pointer-events:none;
+transition: .5s;
+}
+.login-box.user-box input:focus~label,
+.login-box.user-box input:valid~label{
+top: -85px;
+left: 0;
+color: #FA5F15;
+font-size: 12px;
+margin-bottom: 10px;
+}
+#submit{
+padding: 10px 20px;
+color: #868686;
+font-size: 16px;
+text-decoration: none;
+text-transform: uppercase;
+overflow: hidden;
+transition: .5s;
+letter-spacing: 4px;
+border: 1px solid #FA5F15;
+margin: auto;
+}
+#submit:hover{
+background: #FA5F15;
+color: #fff;
+border-radius: 5px;
+box-shadow: 0 0 5px #FA5F15, 0 0 25px #FA5F15, 0 0 50px #FA5F15, 0 0 100px #FA5F15;
+}
+.button-form{
+display: flex;
+flex-direction: row;
+margin-top: 20px;
+}
+#register{
+font-size: 14px;
+text-decoration: none;
+color: #868686;
+margin: auto;
+width: 60%;
+text-align: center;
+}
+#register a{
+margin: auto;
+color: #eca57c;
+text-decoration: none;
+}
+.p3{
+font-size: 2em;
+}
+.btn{
+  border:none;
+  background: none;
+}
+.btn-email{
+    background-color: rgb(255, 255, 255);
+    border: #FA5F15;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    color:#FA5F15;
+    padding: 9px 15px;
+    margin-left: 10px;
+    transition:.5s;
+}
+.btn-email:hover{
+  background: #FA5F15;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #FA5F15, 0 0 25px #FA5F15, 0 0 50px #FA5F15, 0 0 100px #FA5F15;
+}
+.grid-container{
+  display: flex;
+  flex-wrap:wrap;
+  align-content: center;
+}
+.container-body{
+  position:relative;
+}
+.card-welcome{
+  position:absolute;
+  border-radius: 10px;
+  width:40vw;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-left: 5vh;
+}
+.welcome-h1{
+  color: #FA5F15;
+  font-size: 2em;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.welcome-p{
+  color: #1e1e1e;
+  font-size: 1em;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.card-google{
+  position:absolute;
+  border-radius: 20px;
+  width:40vw;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-left: 50vw;
+  background:white;
+  padding-top: 5vh;
+  padding-left: 5vh;
+}
+.google-logo{
+  height: 2em;
+}
+.welcome{
+  position: relative;
+}
+.fortune{
+  position:absolute;
+  background: none;
+  margin-top: 90vh;
+}
+.input-icons i {
+            position: static;
+        }
+          
+        .input-icons {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+          
+        .icon {
+            padding: 10px;
+            min-width: 40px;
+        }
